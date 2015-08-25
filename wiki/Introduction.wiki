@@ -1,0 +1,69 @@
+#summary Doraemon Smilies plugin for WordPress
+#labels Featured,Phase-Deploy,WordPress,Plugin
+
+= 介绍 =
+= _Introduction_ =
+
+----
+
+WordPress表情插件,来自神奇的哆啦A梦.
+
+_WordPress Smilies plugin with emotions by Doraemon_
+
+
+= 内容 =
+= _Details_ =
+
+----
+
+==安装:==
+==_Installation_==
+  * 1.[http://code.google.com/p/zhu8/downloads/list 下载] *插件 和 图标*
+  * _1.[http://code.google.com/p/zhu8/downloads/list Download] *Plugin & Smilies images*_
+  * 2.上传 "doraemon-smilies" 文件夹到 "/wp-content/plugins" 目录. 上传 "smilies" 文件夹到 "/wp-includes/images" 目录;
+  * _2.Upload the directory "doraemon-smilies" to the "/wp-content/plugins" directory. Upload "smilies" folder to the "/wp-includes/images" directory;_
+  * 3.激活 "Doraemon Smilies For Wordpress" 在 "管理面板>插件";
+  * _3.Activate "Doraemon Smilies For Wordpress" in "Admin Panel>plugin";_
+  * 4.完成!
+  * _4.All Done!Enjoy!_
+
+= 英文表情文件 =
+= _Smilies For English Users_ =
+
+----
+
+===Modify the *init.php* use this *Code* below===
+
+{{{
+<?php
+
+$wpsmiliestrans = array(
+	':no_face:' => 'dora_wuyan.png',
+	':naughty:' => 'dora_wanpi.png',
+	':act_up:' => 'dora_tiaopi.png',
+	':delight:' => 'dora_gaoxing.png',
+	':envy:' => 'dora_xianmu.png',
+	':laugh?:' => 'dora_kuxiao.png',
+	':doubt:' => 'dora_yiwen.png',
+	':ignorant:' => 'dora_budong.png',
+	':evil:' => 'dora_jianxiao.png',
+	':satisfaction:' => 'dora_manzu.png',
+	':surprise:' => 'dora_jingya.png',
+	':pity:' => 'dora_yihan.png',
+	':scare:' => 'dora_haipa.png',
+	':alarm:' => 'dora_jinghuang.png',
+	':glory:' => 'dora_deyi.png',
+	':happy:' => 'dora_kuaile.png',
+	':angry:' => 'dora_shengqi.png',
+	':bye:' => 'dora_zaijian.png',
+	':nice:' => 'dora_meihao.png',
+	':oo:' => 'dora_oo.png',
+	':expect:' => 'dora_qidai.png',
+	':duplicity:' => 'dora_jianzha.png',
+	':humility:' => 'dora_qianxu.png',
+	':scorn:' => 'dora_buxie.png',
+	':pain:' => 'dora_tongku.png',
+	':trouble:' => 'dora_fannao.png',
+	':think:' => 'dora_sikao.png',
+);
+}}}
